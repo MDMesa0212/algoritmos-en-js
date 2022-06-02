@@ -1,0 +1,53 @@
+body{
+    /*  Margin = margen externa
+        padding = marfen interna
+    margin: 0;*/
+    margin: 0;
+    padding: 0;
+    background: url("../img/galaxia.jpg");
+    background-size:contain;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'ubuton', Courier, monospace;
+}
+
+h1 {
+    color: #00c3ff;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+h2{
+    color: #1100ff;
+    /*font-size = tamaño de fuente*/
+    font-size: 35px;
+}
+
+p{
+   color: #00ffff;
+   font-size: 28px; 
+   margin-bottom: 20px;
+   text-align: center;
+   margin: 100px 200px;
+}
+
+button {
+    padding: 10px;
+    margin: 30px;
+    background-color: transparent;
+    background-position: center;
+    border: 2px solid #04ff9f;
+    cursor: pointer;
+    font-size: 22px;
+    color: #00ccff;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: #000000
+}
+
